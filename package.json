@@ -1,6 +1,6 @@
 {
   "name": "mnmlivan",
-  "version": "40.0.1",
+  "version": "1.0.1",
   "description": "Meta package for @mnmlivan the person",
   "main": "./src/index.js",
   "bin": {
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/mnmlivan/package-mnmlivan.git"
   },
-  "author": "Zach Leatherman",
+  "author": "mnmlivan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mnmlivan/package-mnmlivan/issues"
