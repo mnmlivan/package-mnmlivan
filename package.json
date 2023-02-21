@@ -1,0 +1,32 @@
+{
+  "name": "mnmlivan",
+  "version": "40.0.1",
+  "description": "Meta package for @mnmlivan the person",
+  "main": "./src/index.js",
+  "bin": {
+    "mnmlivan": "./src/cmd.js"
+  },
+  "scripts": {
+    "default": "node src/cmd.js",
+    "test": "npx ava"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mnmlivan/package-mnmlivan.git"
+  },
+  "author": "Zach Leatherman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnmlivan/package-mnmlivan/issues"
+  },
+  "homepage": "https://github.com/mnmlivan/package-mnmlivan#readme",
+  "devDependencies": {
+    "ava": "^5.2.0"
+  },
+  "dependencies": {
+    "update-notifier": "^6.0.2"
+  }
+}
